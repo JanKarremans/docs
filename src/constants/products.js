@@ -14,7 +14,12 @@ export const products = {
   bart: { name: "Backup and Recovery Tool", iconName: IconNames.EDB_BART },
   biganimal: { name: "BigAnimal", iconName: IconNames.BIGANIMAL },
   efm: { name: "Failover Manager", iconName: IconNames.EDB_EFM },
+  epd: { name: "EDB Postgres Distributed", iconName: IconNames.EDB_EPAS },
   eprs: { name: "EDB Replication Server", iconName: IconNames.EDB_EPAS },
+  postgres_for_kubernetes: {
+    name: "EDB Postgres for Kubernetes",
+    iconName: IconNames.KUBERNETES,
+  },
   pem: { name: "Postgres Enterprise Manager", iconName: IconNames.EDB_PEM },
   migration_portal: {
     name: "Migration Portal",
